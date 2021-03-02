@@ -10,8 +10,8 @@ void bubblesort (int a[], int n) {
                 flag = 1;
             }
         }
-        if (flag = 0)
-            break;
+        if (flag = 0) // array sorted
+            break;      // come out of loop
     }
 
     for (int i = 0; i < n; i++)
